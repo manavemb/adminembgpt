@@ -1,46 +1,5 @@
-# Core dependencies
-streamlit==1.39.0
-anthropic==0.31.2
-
-
-markdown2==2.4.8
-beautifulsoup4==4.12.3
-python-docx==1.1.2
-
-# YAML parsing
-pyyaml==6.0.1
-
-# Image processing (for logo handling)
-Pillow==10.0.0
-
-# Additional Streamlit components
-streamlit-ace==0.1.1
-
-# Networking
-requests==2.31.0
-
-# Data handling
-pandas==2.0.3
-numpy==1.25.2
-
-# Date and time handling
-python-dateutil==2.8.2
-
-# Environment variables
-python-dotenv==1.0.0
-
-# Type hinting support
-typing-extensions==4.9.0
-
-# Development and testing
-pytest==7.4.0
-black==23.7.0
-flake8==6.1.0
-
-# Typing Animations
-streamlit-lottie==0.0.5
-
-#tracking
-google-auth==2.28.1
-google-auth-oauthlib==1.2.0
-gspread==6.0.2
+streamlit>=1.31.0
+pandas>=2.2.0
+plotly>=5.18.0
+google-auth>=2.27.0
+gspread>=5.12.0
